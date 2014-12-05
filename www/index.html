@@ -1,6 +1,18 @@
 <html>
 <head>
 	<title></title>
+	<script>
+	    function openLinkInBrowser(url){
+		    if (navigator!=undefined && navigator.app!=undefined && navigator.app.loadUrl !=undefined) {
+		        navigator.app.loadUrl( url,  { openExternal: true });  
+		    } else {
+		        window.open(url, "_system");
+		    }
+		    
+		}
+    </script>
+
+
 </head>
 <body>
 	<!--img src="img/comportir.png"  style="margin:auto;" /-->
