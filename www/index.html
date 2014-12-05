@@ -1,35 +1,14 @@
 <html>
 <head>
-	<title>pruebaaa</title>
+	<title></title>
 </head>
-<script src="js/jquery-1.10.0.min.js"></script>
-<script type="text/javascript">
-    	$(function(){
-  				//href="https://www.facebook.com/sharer/sharer.php?u='+vermas+'" target="_blank"
-  				var url = //sessionStorage.getItem("compartirurl");
-  				if(url != null){
-    				$('#continuar').click(function(){
-              //facebookGo(url)
-              window.open('https://m.facebook.com/sharer.php?u='+url, '_blank');
-    				 /*var shareUrl = 'https://m.facebook.com/sharer.php?u='+url
-
-    				   window.location = shareUrl; */
-    			  });
-          		}
-  			  	else{
-  					parent.history.back()          
-  			  	}
-  				
-          $('#backbtn').click(function(){
-            parent.history.back();
-            return false;
-          });
-  		});
-    </script>  
 <body>
-	<h1>Hoola</h1>
-	<a href="#" data-role="button" data-icon="arrow-r" id="continuar" style="text-align:left;">Ir</a>
-	<br>
-	<button onclick="window.plugins.socialsharing.share('My message')">share!</button>
+	<!--img src="img/comportir.png"  style="margin:auto;" /-->
+
+	<a class"afuera" onclick="openLinkInBrowser('https://twitter.com/intent/tweet?text=@FNAahorro')"><img src="img/twitter.png" width="50" height="50" /></a>
+	<a onclick="openLinkInBrowser('https://www.facebook.com/sharer/sharer.php?u=http://fna.gov.co')"><img src="img/twitter.png" width="50" height="50" /></a>
+	<a onclick="openLinkInBrowser('http://www.youtube.com/user/fnaahorro')"><img src="img/twitter.png" width="50" height="50" /></a>
+
 </body>
 </html>
+
