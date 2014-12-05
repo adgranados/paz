@@ -4,13 +4,20 @@
 	<script type="text/javascript" src="js/jquery-1.10.0.min.js"></script>
 	<script type="text/javascript" src="js/jquery.rwdImageMaps.min.js"></script>
 	<script>
-	    function openLinkInBrowser(url){
+	    /*function openLinkInBrowser(url){
 		    if (navigator!=undefined && navigator.app!=undefined && navigator.app.loadUrl !=undefined) {
 		        navigator.app.loadUrl( url,  { openExternal: true });  
 		    } else {
 		        window.open(url, "_system");
 		    }
-		    
+		}*/
+
+		function openLinkInBrowser(url){
+		    if (navigator!=undefined && navigator.app!=undefined && navigator.app.loadUrl !=undefined) {
+		        navigator.app.loadUrl( url,  { openExternal: true });  
+		    } else {
+		        window.open(url, "_system");
+		    }
 		}
     </script>
         <style type="text/css">
@@ -31,12 +38,10 @@
 			<div class="menu-wrap">
 				<nav class="menu">
 					<div class="icon-list">
-						<a href="#"><i class="fa fa-fw fa-star-o"></i><span>Favorites</span></a>
-						<a href="#"><i class="fa fa-fw fa-bell-o"></i><span>Alerts</span></a>
-						<a href="#"><i class="fa fa-fw fa-envelope-o"></i><span>Messages</span></a>
-						<a href="#"><i class="fa fa-fw fa-comment-o"></i><span>Comments</span></a>
-						<a href="#"><i class="fa fa-fw fa-bar-chart-o"></i><span>Analytics</span></a>
-						<a href="#"><i class="fa fa-fw fa-newspaper-o"></i><span>Reading List</span></a>
+						<a href="index.html"><i class="fa fa-fw fa-graduation-cap"></i><span>Educate</span></a>
+						<a href="#"><i class="fa fa-fw fa-italic"></i><span>Informate</span></a>
+						<a href="#"><i class="fa fa-fw fa-angellist"></i><span>Acerca de</span></a>
+						<a href="registronuevo.html"><i class="fa fa-fw fa-smile-o"></i><span>Registrate</span></a>
 					</div>
 				</nav>
 				<button class="close-button" id="close-button">Close Menu</button>
@@ -57,9 +62,9 @@
 						<!--h1>Multiplicando <br/>por la Paz</h1-->
 						<img id="Image-Maps-Com-image-maps-2014-12-05-022426" src="img/comportir.png	" border="0" width="863" height="1295" orgWidth="863" orgHeight="1295" usemap="#image-maps-2014-12-05-022426" alt="" />
 						<map name="image-maps-2014-12-05-022426" id="ImageMapsCom-image-maps-2014-12-05-022426">
-							<area  alt="" title="Facebook" onClick="openLinkInBrowser('https://www.facebook.com/sharer/sharer.php?u=http://fna.gov.co')" shape="rect" coords="32,640,172,779" style="outline:none;" target="_self"     />
-							<area  alt="" title="Twitter" onClick="openLinkInBrowser('https://twitter.com/intent/tweet?text=@FNAahorro')" shape="rect" coords="192,642,332,781" style="outline:none;" target="_self"     />
-							<area  alt="" title="Youtube" onClick="openLinkInBrowser('http://www.youtube.com/user/fnaahorro')" shape="rect" coords="348,647,488,786" style="outline:none;" target="_self"     />
+							<area  alt="" title="Facebook" onClick="openLinkInBrowser('http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http://avancesacuerdos.gov.co&p[images][0]=http://avancesacuerdos.gov.co/images/thumb.jpg&p[title]=ACUERDO%20GENERAL%20PARA%20LA%20TERMINACI%C3%93N%20DEL%20CONFLICTO&p[summary]=Avances%20en%20las%20conversaciones%20que%20adelanta%20el%20Gobierno%20Nacional%20en%20La%20Habana.')" shape="rect" coords="32,640,172,779" style="outline:none;" target="_self"     />
+							<area  alt="" title="Twitter" onClick="openLinkInBrowser('https://twitter.com/intent/tweet?text=@infopresidencia&original_referer=http://avancesacuerdos.gov.co/')" shape="rect" coords="192,642,332,781" style="outline:none;" target="_self"     />
+							<area  alt="" title="Google" onClick="openLinkInBrowser('https://plus.google.com/share?url=http://avancesacuerdos.gov.co/')" shape="rect" coords="348,647,488,786" style="outline:none;" target="_self"     />
 							<area shape="rect" coords="861,1293,863,1295" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_0" />
 						</map>
 
