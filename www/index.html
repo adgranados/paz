@@ -6,7 +6,7 @@
 <script type="text/javascript">
     	$(function(){
   				//href="https://www.facebook.com/sharer/sharer.php?u='+vermas+'" target="_blank"
-  				var url = sessionStorage.getItem("compartirurl");
+  				var url = //sessionStorage.getItem("compartirurl");
   				if(url != null){
     				$('#continuar').click(function(){
               //facebookGo(url)
@@ -15,10 +15,10 @@
 
     				   window.location = shareUrl; */
     			  });
-          }
-  			  else{
-  				  parent.history.back()          
-  			  }
+          		}
+  			  	else{
+  					parent.history.back()          
+  			  	}
   				
           $('#backbtn').click(function(){
             parent.history.back();
@@ -29,5 +29,7 @@
 <body>
 	<h1>Hoola</h1>
 	<a href="#" data-role="button" data-icon="arrow-r" id="continuar" style="text-align:left;">Ir</a>
+	<br>
+	<button onclick="window.plugins.socialsharing.share('My message')">share!</button>
 </body>
 </html>
